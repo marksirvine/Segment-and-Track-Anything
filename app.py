@@ -583,10 +583,10 @@ def seg_track_app():
 
                             max_obj_num = gr.Slider(
                                 label='max_obj_num',
-                                minimum = 50,
+                                minimum = 1,
                                 step=1,
                                 maximum = 300,
-                                value=255,
+                                value=2,
                                 interactive=True
                             )
                             with gr.Accordion("aot advanced options", open=False):
